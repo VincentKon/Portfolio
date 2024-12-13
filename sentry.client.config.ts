@@ -9,10 +9,9 @@ Sentry.init({
 
   // Add optional integrations for additional features
   integrations: [
-    Sentry.feedbackIntegration({
-      // Additional SDK configuration goes in here, for example:
-      colorScheme: "dark",
-    }),
+    // Sentry.feedbackIntegration({
+    //   colorScheme: "dark",
+    // }),
     Sentry.replayIntegration(),
   ],
 
